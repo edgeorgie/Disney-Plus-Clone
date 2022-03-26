@@ -1,7 +1,12 @@
 import React from 'react'
+import { ImgSlider } from '../ImgSlider/ImgSlider'
+import { Container } from './Styled'
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <Container>
+      <ImgSlider />
+      Home
+    </Container>
   )
 }
