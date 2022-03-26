@@ -6,6 +6,7 @@ export const Nav = styled.nav`
   padding: 0 36px;
   height: 70px;
   background: #090b13;
+  overflow-x: hidden;
 `;
 
 export const Logo = styled.img`
