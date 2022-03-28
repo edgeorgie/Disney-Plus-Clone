@@ -66,5 +66,28 @@ export const UserImg = styled.img`
   height: 48px;
   border-radius: 50%;
   cursor: pointer;
+`;
 
+export const LoginContainer = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+`;
+
+export const Login = styled.div`
+  border: 1px solid #f9f9f9;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: #f9f9f9;
+    color: #000;
+    border-color: transparent;
+  }
 `;
